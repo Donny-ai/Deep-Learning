@@ -12,8 +12,8 @@ Finally I went back to the closing price model to adjust the window and noticed 
 
 ### Questions and Answers
 * Which model has a lower loss?  
-**The closing price model had the lower evaluation loss with 0.0027, compared to the FNG model with 0.0986. It was lower regardless of the window settings.**
-* Which model tracks the actual values better over time?
+**The closing price model had the lower evaluation loss with 0.0027, compared to the FNG model with 0.0986. It was lower regardless of the window settings.**  
+* Which model tracks the actual values better over time?  
 **The closing price model does, pictured below:**  
 ![Closing Price LSTM 1 day window 1 layer 25 neurons](Resources/loss_0.0028_window_1.png)  
 **This is the Fear and Greed model:**  
